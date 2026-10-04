@@ -23,10 +23,10 @@ export function currentPhase(firstDay, today) {
   return { ...PHASES[idx], index: idx, day: d + 1, week: Math.floor(d / 7) + 1 };
 }
 
-// 毎日のメニュー（合計30分）。tsume は出題を解き終えると自動でつく
+// 毎日のメニュー（合計30分）。auto のものは、その練習を最後までやると自動でつく
 export const MENU = [
-  { key: "tsume", label: "詰将棋", min: 10, note: "今日の問題を解く", auto: true },
-  { key: "kata", label: "手筋・定跡", min: 5, note: "四間飛車の定跡ドリルは次の更新で追加します。今は本や動画で" },
+  { key: "tsume", label: "詰将棋", min: 10, note: "今日の問題を解く", auto: "tsume" },
+  { key: "kata", label: "定跡", min: 5, note: "四間飛車の定跡ドリル（復習の手順と、新しい手順1本）", auto: "joseki" },
   { key: "game", label: "対局を1局", min: 10, note: "将棋ウォーズの10分切れ負け" },
   { key: "review", label: "振り返り", min: 5, note: "駒をタダで取られた手、詰みを逃した手を1つ探す" },
 ];

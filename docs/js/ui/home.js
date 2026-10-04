@@ -21,7 +21,8 @@ export function renderHome(app, ctx) {
   const unlocked = threeUnlocked(problems, progress, settings);
   const due = dueCount(problems, progress, day);
   const pct = (x) => `${Math.round(x * 100)}%`;
-  const menuDone = MENU.filter((m) => (m.auto ? todayRec.tsume : todayRec.menu?.[m.key])).length;
+  const isDone = (m) => (m.auto ? !!todayRec[m.auto] : !!todayRec.menu?.[m.key]);
+  const menuDone = MENU.filter(isDone).length;
 
   app.innerHTML = `
     <header class="home-head">
@@ -33,7 +34,7 @@ export function renderHome(app, ctx) {
       <div class="card-head"><h2>今日のメニュー</h2><span class="pill">${menuDone} / ${MENU.length}</span></div>
       <ul class="menu">
         ${MENU.map((m) => {
-          const done = m.auto ? !!todayRec.tsume : !!todayRec.menu?.[m.key];
+          const done = isDone(m);
           const control = m.auto
             ? `<span class="check ${done ? "on" : ""}" aria-hidden="true">${done ? "✓" : ""}</span>`
             : `<input type="checkbox" class="check-input" data-menu="${m.key}" ${done ? "checked" : ""} aria-label="${esc(m.label)}をやった">`;
@@ -43,6 +44,10 @@ export function renderHome(app, ctx) {
       </ul>
       <button type="button" class="primary wide" data-act="daily">${todayRec.tsume ? "もう一度　今日の詰将棋" : "今日の詰将棋を始める"}（${settings.dailyCount}問）</button>
       <p class="hint-line">${due ? `復習 ${due} 問が待っています。先に出ます。` : "復習の問題はありません。新しい問題が出ます。"}　連続 ${streak(days, today)} 日</p>
+      <div class="row">
+        <button type="button" data-act="joseki">${todayRec.joseki ? "もう一度　今日の定跡" : "今日の定跡を始める"}（${settings.josekiCount}本）</button>
+        <button type="button" data-act="josekiList">定跡の一覧</button>
+      </div>
     </section>
 
     <section class="card">
@@ -74,6 +79,9 @@ export function renderHome(app, ctx) {
       <label class="field">1日の問題数
         <select data-set="dailyCount">${[5, 10, 15, 20].map((n) => `<option value="${n}" ${n === settings.dailyCount ? "selected" : ""}>${n}問</option>`).join("")}</select>
       </label>
+      <label class="field">1日の定跡の本数
+        <select data-set="josekiCount">${[1, 2, 3, 5].map((n) => `<option value="${n}" ${n === settings.josekiCount ? "selected" : ""}>${n}本</option>`).join("")}</select>
+      </label>
       <label class="field check-field"><input type="checkbox" data-set="allow3" ${settings.allow3 ? "checked" : ""}> 条件を待たずに3手詰を混ぜる</label>
       <p class="note">記録はこの端末のブラウザにだけ保存されます。</p>
     </section>`;
@@ -82,9 +90,12 @@ export function renderHome(app, ctx) {
     const b = e.target.closest("button[data-act]");
     if (!b || !app.contains(b)) return; // 画面を描き直した直後に届いた古いクリックは無視
     const act = b.dataset.act;
-    if (!["daily", "only1", "only3"].includes(act)) return;
+    if (!["daily", "only1", "only3", "joseki", "josekiList"].includes(act)) return;
     app.onclick = null;
-    ctx.start(act === "only1" ? 1 : act === "only3" ? 3 : 0);
+    app.onchange = null;
+    if (act === "joseki") ctx.startJoseki();
+    else if (act === "josekiList") ctx.josekiList();
+    else ctx.start(act === "only1" ? 1 : act === "only3" ? 3 : 0);
   };
   app.onchange = (e) => {
     const el = e.target;
@@ -95,6 +106,10 @@ export function renderHome(app, ctx) {
       renderHome(app, ctx);
     } else if (el.dataset.set === "dailyCount") {
       settings.dailyCount = Number(el.value);
+      ctx.save();
+      renderHome(app, ctx);
+    } else if (el.dataset.set === "josekiCount") {
+      settings.josekiCount = Number(el.value);
       ctx.save();
       renderHome(app, ctx);
     } else if (el.dataset.set === "allow3") {

@@ -15,7 +15,11 @@ function set(key, value) {
 export const loadProgress = () => get("progress", {});
 export const saveProgress = (p) => set("progress", p);
 
-export const DEFAULT_SETTINGS = { dailyCount: 10, allow3: false };
+// 定跡の手順ごとの記録（詰将棋と同じ形）
+export const loadJosekiProgress = () => get("joseki", {});
+export const saveJosekiProgress = (p) => set("joseki", p);
+
+export const DEFAULT_SETTINGS = { dailyCount: 10, allow3: false, josekiCount: 3 };
 export const loadSettings = () => ({ ...DEFAULT_SETTINGS, ...get("settings", {}) });
 export const saveSettings = (s) => set("settings", s);
 

@@ -1,0 +1,3373 @@
+{
+ "version": 1,
+ "chapters": [
+  {
+   "key": "kumi",
+   "title": "基本の駒組み",
+   "summary": "角道を止めて△4二飛、▲2五歩には△3三角。玉を6二→7一→8二と運び、△7二銀・△5二金左で美濃囲いを完成させる。",
+   "lines": [
+    {
+     "id": "kumi-1",
+     "name": "本線（▲4八銀先行・△7二銀早め）",
+     "kif": [
+      "▲７六歩",
+      "△３四歩",
+      "▲２六歩",
+      "△４四歩",
+      "▲４八銀",
+      "△４二飛",
+      "▲６八玉",
+      "△７二銀",
+      "▲２五歩",
+      "△３三角",
+      "▲７八玉",
+      "△９四歩",
+      "▲９六歩",
+      "△３二銀",
+      "▲５六歩",
+      "△６二玉",
+      "▲５八金右",
+      "△７一玉",
+      "▲６八銀",
+      "△８二玉",
+      "▲５七銀左",
+      "△５二金左"
+     ],
+     "moves": [
+      {
+       "from": 56,
+       "to": 47,
+       "promote": false
+      },
+      {
+       "from": 24,
+       "to": 33,
+       "promote": false
+      },
+      {
+       "from": 61,
+       "to": 52,
+       "promote": false
+      },
+      {
+       "from": 23,
+       "to": 32,
+       "promote": false
+      },
+      {
+       "from": 78,
+       "to": 68,
+       "promote": false
+      },
+      {
+       "from": 10,
+       "to": 14,
+       "promote": false
+      },
+      {
+       "from": 76,
+       "to": 66,
+       "promote": false
+      },
+      {
+       "from": 2,
+       "to": 11,
+       "promote": false
+      },
+      {
+       "from": 52,
+       "to": 43,
+       "promote": false
+      },
+      {
+       "from": 16,
+       "to": 24,
+       "promote": false
+      },
+      {
+       "from": 66,
+       "to": 65,
+       "promote": false
+      },
+      {
+       "from": 18,
+       "to": 27,
+       "promote": false
+      },
+      {
+       "from": 54,
+       "to": 45,
+       "promote": false
+      },
+      {
+       "from": 6,
+       "to": 15,
+       "promote": false
+      },
+      {
+       "from": 58,
+       "to": 49,
+       "promote": false
+      },
+      {
+       "from": 4,
+       "to": 12,
+       "promote": false
+      },
+      {
+       "from": 77,
+       "to": 67,
+       "promote": false
+      },
+      {
+       "from": 12,
+       "to": 2,
+       "promote": false
+      },
+      {
+       "from": 74,
+       "to": 66,
+       "promote": false
+      },
+      {
+       "from": 2,
+       "to": 10,
+       "promote": false
+      },
+      {
+       "from": 66,
+       "to": 58,
+       "promote": false
+      },
+      {
+       "from": 5,
+       "to": 13,
+       "promote": false
+      }
+     ],
+     "notes": {
+      "4": "△4四歩で角道を止める。角交換を避けて、じっくり美濃に囲うのが四間飛車の土台",
+      "6": "△4二飛で四間飛車。角道を止めてあるので、急な角交換を気にせず囲いに専念できる",
+      "8": "△7二銀を先に上がっておく。玉が8二に入るための道を作り、囲いの骨格になる",
+      "10": "▲2五歩には△3三角が必須。2筋の歩を角で受けないと▲2四歩で飛車先を破られる",
+      "14": "△3二銀で左の銀を上げて角の頭を補強する。急戦を受けるときの要になる駒",
+      "20": "△6二玉→△7一玉→△8二玉と3手かけて入城。玉は8二が美濃囲いの定位置",
+      "22": "△5二金左で本美濃（玉8二・銀7二・金5二・金6一）が完成。ここから相手の作戦を見て動く"
+     },
+     "verdict": "互角（駒組み完了。ここから居飛車の作戦待ち）",
+     "confidence": "出典1つ",
+     "sources": [
+      "https://www.shogilounge.com/entry/2018/01/03/162722",
+      "https://ja.wikipedia.org/wiki/4%E4%BA%94%E6%AD%A9%E6%97%A9%E4%BB%95%E6%8E%9B%E3%81%91"
+     ]
+    },
+    {
+     "id": "kumi-2",
+     "name": "分岐（▲2五歩を早く突かれる形）",
+     "kif": [
+      "▲７六歩",
+      "△３四歩",
+      "▲２六歩",
+      "△４四歩",
+      "▲２五歩",
+      "△３三角",
+      "▲４八銀",
+      "△４二飛",
+      "▲６八玉",
+      "△７二銀",
+      "▲７八玉",
+      "△９四歩",
+      "▲９六歩",
+      "△６二玉",
+      "▲５六歩",
+      "△７一玉",
+      "▲５八金右",
+      "△３二銀",
+      "▲６八銀",
+      "△８二玉",
+      "▲５七銀左",
+      "△５二金左"
+     ],
+     "moves": [
+      {
+       "from": 56,
+       "to": 47,
+       "promote": false
+      },
+      {
+       "from": 24,
+       "to": 33,
+       "promote": false
+      },
+      {
+       "from": 61,
+       "to": 52,
+       "promote": false
+      },
+      {
+       "from": 23,
+       "to": 32,
+       "promote": false
+      },
+      {
+       "from": 52,
+       "to": 43,
+       "promote": false
+      },
+      {
+       "from": 16,
+       "to": 24,
+       "promote": false
+      },
+      {
+       "from": 78,
+       "to": 68,
+       "promote": false
+      },
+      {
+       "from": 10,
+       "to": 14,
+       "promote": false
+      },
+      {
+       "from": 76,
+       "to": 66,
+       "promote": false
+      },
+      {
+       "from": 2,
+       "to": 11,
+       "promote": false
+      },
+      {
+       "from": 66,
+       "to": 65,
+       "promote": false
+      },
+      {
+       "from": 18,
+       "to": 27,
+       "promote": false
+      },
+      {
+       "from": 54,
+       "to": 45,
+       "promote": false
+      },
+      {
+       "from": 4,
+       "to": 12,
+       "promote": false
+      },
+      {
+       "from": 58,
+       "to": 49,
+       "promote": false
+      },
+      {
+       "from": 12,
+       "to": 2,
+       "promote": false
+      },
+      {
+       "from": 77,
+       "to": 67,
+       "promote": false
+      },
+      {
+       "from": 6,
+       "to": 15,
+       "promote": false
+      },
+      {
+       "from": 74,
+       "to": 66,
+       "promote": false
+      },
+      {
+       "from": 2,
+       "to": 10,
+       "promote": false
+      },
+      {
+       "from": 66,
+       "to": 58,
+       "promote": false
+      },
+      {
+       "from": 5,
+       "to": 13,
+       "promote": false
+      }
+     ],
+     "notes": {
+      "4": "△4四歩で角道を止める。ここまでの4手はどの出典でも共通の出だし",
+      "6": "▲2五歩と早く伸ばされたら即△3三角。この1手を忘れると2筋をすぐ破られる",
+      "8": "角で2筋を受けてから△4二飛。飛車を振る順番が多少前後しても▲2五歩には常に△3三角",
+      "10": "△7二銀で玉の通り道を確保。玉より先に銀を上がっても問題ない",
+      "18": "△3二銀で角頭を守る。この銀を3二に置くか4三に上がるかで居飛車の急戦の種類が変わる",
+      "20": "△8二玉で入城完了。美濃では玉は8二、銀は7二が基本",
+      "22": "△5二金左で美濃囲い完成。左の金（4一）を寄せ、右の金（6一）はそのまま"
+     },
+     "verdict": "互角（駒組み完了）",
+     "confidence": "出典1つ",
+     "sources": [
+      "https://www.shogilounge.com/entry/2018/01/07/162806",
+      "https://ja.wikibooks.org/wiki/%E5%B0%86%E6%A3%8B/%E2%96%B27%E5%85%AD%E6%AD%A9/%E2%96%B33%E5%9B%9B%E6%AD%A9/%E2%96%B22%E5%85%AD%E6%AD%A9/%E2%96%B34%E5%9B%9B%E6%AD%A9",
+      "https://wikiwiki.jp/k-notes/NSB"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "hayashikake",
+   "title": "対▲4五歩早仕掛け",
+   "summary": "▲4六歩を見たら△5四歩ではなく△5四銀（玉頭銀）。▲3八飛には△4三銀と戻り、▲4四歩には△2二角で受ける。",
+   "lines": [
+    {
+     "id": "hayashikake-1",
+     "name": "本線（△5四銀→▲3八飛に△4三銀）",
+     "kif": [
+      "▲７六歩",
+      "△３四歩",
+      "▲２六歩",
+      "△４四歩",
+      "▲４八銀",
+      "△４二飛",
+      "▲６八玉",
+      "△７二銀",
+      "▲２五歩",
+      "△３三角",
+      "▲７八玉",
+      "△９四歩",
+      "▲９六歩",
+      "△３二銀",
+      "▲５六歩",
+      "△６二玉",
+      "▲５八金右",
+      "△７一玉",
+      "▲６八銀",
+      "△８二玉",
+      "▲５七銀左",
+      "△５二金左",
+      "▲３六歩",
+      "△４三銀",
+      "▲４六歩",
+      "△５四銀",
+      "▲３八飛",
+      "△４三銀",
+      "▲３五歩",
+      "△同　歩",
+      "▲同　飛",
+      "△３二飛",
+      "▲４五歩",
+      "△同　歩",
+      "▲４四歩打",
+      "△２二角"
+     ],
+     "moves": [
+      {
+       "from": 56,
+       "to": 47,
+       "promote": false
+      },
+      {
+       "from": 24,
+       "to": 33,
+       "promote": false
+      },
+      {
+       "from": 61,
+       "to": 52,
+       "promote": false
+      },
+      {
+       "from": 23,
+       "to": 32,
+       "promote": false
+      },
+      {
+       "from": 78,
+       "to": 68,
+       "promote": false
+      },
+      {
+       "from": 10,
+       "to": 14,
+       "promote": false
+      },
+      {
+       "from": 76,
+       "to": 66,
+       "promote": false
+      },
+      {
+       "from": 2,
+       "to": 11,
+       "promote": false
+      },
+      {
+       "from": 52,
+       "to": 43,
+       "promote": false
+      },
+      {
+       "from": 16,
+       "to": 24,
+       "promote": false
+      },
+      {
+       "from": 66,
+       "to": 65,
+       "promote": false
+      },
+      {
+       "from": 18,
+       "to": 27,
+       "promote": false
+      },
+      {
+       "from": 54,
+       "to": 45,
+       "promote": false
+      },
+      {
+       "from": 6,
+       "to": 15,
+       "promote": false
+      },
+      {
+       "from": 58,
+       "to": 49,
+       "promote": false
+      },
+      {
+       "from": 4,
+       "to": 12,
+       "promote": false
+      },
+      {
+       "from": 77,
+       "to": 67,
+       "promote": false
+      },
+      {
+       "from": 12,
+       "to": 2,
+       "promote": false
+      },
+      {
+       "from": 74,
+       "to": 66,
+       "promote": false
+      },
+      {
+       "from": 2,
+       "to": 10,
+       "promote": false
+      },
+      {
+       "from": 66,
+       "to": 58,
+       "promote": false
+      },
+      {
+       "from": 5,
+       "to": 13,
+       "promote": false
+      },
+      {
+       "from": 60,
+       "to": 51,
+       "promote": false
+      },
+      {
+       "from": 15,
+       "to": 23,
+       "promote": false
+      },
+      {
+       "from": 59,
+       "to": 50,
+       "promote": false
+      },
+      {
+       "from": 23,
+       "to": 31,
+       "promote": false
+      },
+      {
+       "from": 70,
+       "to": 69,
+       "promote": false
+      },
+      {
+       "from": 31,
+       "to": 23,
+       "promote": false
+      },
+      {
+       "from": 51,
+       "to": 42,
+       "promote": false
+      },
+      {
+       "from": 33,
+       "to": 42,
+       "promote": false
+      },
+      {
+       "from": 69,
+       "to": 42,
+       "promote": false
+      },
+      {
+       "from": 14,
+       "to": 15,
+       "promote": false
+      },
+      {
+       "from": 50,
+       "to": 41,
+       "promote": false
+      },
+      {
+       "from": 32,
+       "to": 41,
+       "promote": false
+      },
+      {
+       "drop": 1,
+       "to": 32
+      },
+      {
+       "from": 24,
+       "to": 16,
+       "promote": false
+      }
+     ],
+     "notes": {
+      "24": "△4三銀で角頭を補強した形。居飛車はこれを見て▲4五歩からの角交換を狙ってくる",
+      "26": "▲4六歩には△5四銀（玉頭銀）。△5四歩は▲4五歩から居飛車が攻め切る定跡があり避ける",
+      "28": "▲3八飛で角頭を狙われたら△4三銀と戻る。同じ手を繰り返せば千日手なので先手が無理に動くことになる",
+      "32": "▲3五同飛には△3二飛と飛車をぶつける。戦いの起きた筋に飛車を回すのが振り飛車の基本",
+      "34": "▲4五歩には△同歩と素直に取る。4筋を開けることで次の受けが成立する",
+      "36": "▲4四歩には△2二角と引くのが正解。△同銀や△同角は飛車を取られる。▲3二飛成なら△同銀で銀がかわせる"
+     },
+     "verdict": "後手（四間飛車）優勢",
+     "confidence": "確認済み",
+     "sources": [
+      "https://www.shogilounge.com/entry/2018/01/03/162722",
+      "https://ynomura.pgw.jp/archives/2017/07/post_60.html",
+      "https://ja.wikipedia.org/wiki/4%E4%BA%94%E6%AD%A9%E6%97%A9%E4%BB%95%E6%8E%9B%E3%81%91"
+     ]
+    },
+    {
+     "id": "hayashikake-2",
+     "name": "分岐（△5四銀に▲5五歩で銀を追われる）",
+     "kif": [
+      "▲７六歩",
+      "△３四歩",
+      "▲２六歩",
+      "△４四歩",
+      "▲４八銀",
+      "△４二飛",
+      "▲６八玉",
+      "△７二銀",
+      "▲２五歩",
+      "△３三角",
+      "▲７八玉",
+      "△９四歩",
+      "▲９六歩",
+      "△３二銀",
+      "▲５六歩",
+      "△６二玉",
+      "▲５八金右",
+      "△７一玉",
+      "▲６八銀",
+      "△８二玉",
+      "▲５七銀左",
+      "△５二金左",
+      "▲３六歩",
+      "△４三銀",
+      "▲４六歩",
+      "△５四銀",
+      "▲５五歩",
+      "△６五銀",
+      "▲３五歩",
+      "△同　歩",
+      "▲３八飛",
+      "△４五歩",
+      "▲３五飛",
+      "△４六歩"
+     ],
+     "moves": [
+      {
+       "from": 56,
+       "to": 47,
+       "promote": false
+      },
+      {
+       "from": 24,
+       "to": 33,
+       "promote": false
+      },
+      {
+       "from": 61,
+       "to": 52,
+       "promote": false
+      },
+      {
+       "from": 23,
+       "to": 32,
+       "promote": false
+      },
+      {
+       "from": 78,
+       "to": 68,
+       "promote": false
+      },
+      {
+       "from": 10,
+       "to": 14,
+       "promote": false
+      },
+      {
+       "from": 76,
+       "to": 66,
+       "promote": false
+      },
+      {
+       "from": 2,
+       "to": 11,
+       "promote": false
+      },
+      {
+       "from": 52,
+       "to": 43,
+       "promote": false
+      },
+      {
+       "from": 16,
+       "to": 24,
+       "promote": false
+      },
+      {
+       "from": 66,
+       "to": 65,
+       "promote": false
+      },
+      {
+       "from": 18,
+       "to": 27,
+       "promote": false
+      },
+      {
+       "from": 54,
+       "to": 45,
+       "promote": false
+      },
+      {
+       "from": 6,
+       "to": 15,
+       "promote": false
+      },
+      {
+       "from": 58,
+       "to": 49,
+       "promote": false
+      },
+      {
+       "from": 4,
+       "to": 12,
+       "promote": false
+      },
+      {
+       "from": 77,
+       "to": 67,
+       "promote": false
+      },
+      {
+       "from": 12,
+       "to": 2,
+       "promote": false
+      },
+      {
+       "from": 74,
+       "to": 66,
+       "promote": false
+      },
+      {
+       "from": 2,
+       "to": 10,
+       "promote": false
+      },
+      {
+       "from": 66,
+       "to": 58,
+       "promote": false
+      },
+      {
+       "from": 5,
+       "to": 13,
+       "promote": false
+      },
+      {
+       "from": 60,
+       "to": 51,
+       "promote": false
+      },
+      {
+       "from": 15,
+       "to": 23,
+       "promote": false
+      },
+      {
+       "from": 59,
+       "to": 50,
+       "promote": false
+      },
+      {
+       "from": 23,
+       "to": 31,
+       "promote": false
+      },
+      {
+       "from": 49,
+       "to": 40,
+       "promote": false
+      },
+      {
+       "from": 31,
+       "to": 39,
+       "promote": false
+      },
+      {
+       "from": 51,
+       "to": 42,
+       "promote": false
+      },
+      {
+       "from": 33,
+       "to": 42,
+       "promote": false
+      },
+      {
+       "from": 70,
+       "to": 69,
+       "promote": false
+      },
+      {
+       "from": 32,
+       "to": 41,
+       "promote": false
+      },
+      {
+       "from": 69,
+       "to": 42,
+       "promote": false
+      },
+      {
+       "from": 41,
+       "to": 50,
+       "promote": false
+      }
+     ],
+     "notes": {
+      "26": "△5四銀は次に△6五銀〜△7六銀と玉頭の歩を取りに行く狙い",
+      "28": "▲5五歩で銀を追われたら△6五銀と前に出る。下がらずに玉頭への圧力を保つ",
+      "30": "▲3五歩には△同歩と取っておく。歩を得してから4筋で反撃する",
+      "32": "▲3八飛には△4五歩と4筋の歩を伸ばして反撃。角の利きを通す準備",
+      "34": "△4六歩で4筋の拠点を作る。この後は△8四飛と飛車を回す大転換や△3四歩からの飛車ぶつけを狙う"
+     },
+     "verdict": "互角（振り飛車側に有力な手が多く、居飛車は選びたくない変化）",
+     "confidence": "確認済み",
+     "sources": [
+      "https://www.shogilounge.com/entry/2018/01/03/162722",
+      "https://ynomura.pgw.jp/archives/2017/07/post_60.html"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "bogin",
+   "title": "対棒銀",
+   "summary": "▲3七銀〜▲2六銀を見たら△3二飛で3筋に備える。▲3五歩には△6五歩で△6四角の筋を作るか、△1二香・△4二金・△5三角で固く待つ。",
+   "lines": [
+    {
+     "id": "bogin-1",
+     "name": "本線（久保流△6五歩→▲3八飛に△4五歩）",
+     "kif": [
+      "▲７六歩",
+      "△３四歩",
+      "▲２六歩",
+      "△４四歩",
+      "▲４八銀",
+      "△４二飛",
+      "▲６八玉",
+      "△７二銀",
+      "▲７八玉",
+      "△３二銀",
+      "▲５六歩",
+      "△９四歩",
+      "▲９六歩",
+      "△６二玉",
+      "▲５八金右",
+      "△７一玉",
+      "▲２五歩",
+      "△３三角",
+      "▲３六歩",
+      "△８二玉",
+      "▲６八銀",
+      "△５二金左",
+      "▲５七銀左",
+      "△４三銀",
+      "▲６八金上",
+      "△５四歩",
+      "▲３七銀",
+      "△６四歩",
+      "▲４六歩",
+      "△１二香",
+      "▲２六銀",
+      "△３二飛",
+      "▲３五歩",
+      "△６五歩",
+      "▲３四歩",
+      "△同　銀",
+      "▲３八飛",
+      "△４五歩",
+      "▲３三角成",
+      "△同　飛",
+      "▲８八角打",
+      "△３五歩打",
+      "▲４五歩",
+      "△２七角打",
+      "▲２八飛",
+      "△４九角成",
+      "▲３七銀",
+      "△４五銀",
+      "▲２四歩",
+      "△５五歩"
+     ],
+     "moves": [
+      {
+       "from": 56,
+       "to": 47,
+       "promote": false
+      },
+      {
+       "from": 24,
+       "to": 33,
+       "promote": false
+      },
+      {
+       "from": 61,
+       "to": 52,
+       "promote": false
+      },
+      {
+       "from": 23,
+       "to": 32,
+       "promote": false
+      },
+      {
+       "from": 78,
+       "to": 68,
+       "promote": false
+      },
+      {
+       "from": 10,
+       "to": 14,
+       "promote": false
+      },
+      {
+       "from": 76,
+       "to": 66,
+       "promote": false
+      },
+      {
+       "from": 2,
+       "to": 11,
+       "promote": false
+      },
+      {
+       "from": 66,
+       "to": 65,
+       "promote": false
+      },
+      {
+       "from": 6,
+       "to": 15,
+       "promote": false
+      },
+      {
+       "from": 58,
+       "to": 49,
+       "promote": false
+      },
+      {
+       "from": 18,
+       "to": 27,
+       "promote": false
+      },
+      {
+       "from": 54,
+       "to": 45,
+       "promote": false
+      },
+      {
+       "from": 4,
+       "to": 12,
+       "promote": false
+      },
+      {
+       "from": 77,
+       "to": 67,
+       "promote": false
+      },
+      {
+       "from": 12,
+       "to": 2,
+       "promote": false
+      },
+      {
+       "from": 52,
+       "to": 43,
+       "promote": false
+      },
+      {
+       "from": 16,
+       "to": 24,
+       "promote": false
+      },
+      {
+       "from": 60,
+       "to": 51,
+       "promote": false
+      },
+      {
+       "from": 2,
+       "to": 10,
+       "promote": false
+      },
+      {
+       "from": 74,
+       "to": 66,
+       "promote": false
+      },
+      {
+       "from": 5,
+       "to": 13,
+       "promote": false
+      },
+      {
+       "from": 66,
+       "to": 58,
+       "promote": false
+      },
+      {
+       "from": 15,
+       "to": 23,
+       "promote": false
+      },
+      {
+       "from": 75,
+       "to": 66,
+       "promote": false
+      },
+      {
+       "from": 22,
+       "to": 31,
+       "promote": false
+      },
+      {
+       "from": 68,
+       "to": 60,
+       "promote": false
+      },
+      {
+       "from": 21,
+       "to": 30,
+       "promote": false
+      },
+      {
+       "from": 59,
+       "to": 50,
+       "promote": false
+      },
+      {
+       "from": 8,
+       "to": 17,
+       "promote": false
+      },
+      {
+       "from": 60,
+       "to": 52,
+       "promote": false
+      },
+      {
+       "from": 14,
+       "to": 15,
+       "promote": false
+      },
+      {
+       "from": 51,
+       "to": 42,
+       "promote": false
+      },
+      {
+       "from": 30,
+       "to": 39,
+       "promote": false
+      },
+      {
+       "from": 42,
+       "to": 33,
+       "promote": false
+      },
+      {
+       "from": 23,
+       "to": 33,
+       "promote": false
+      },
+      {
+       "from": 70,
+       "to": 69,
+       "promote": false
+      },
+      {
+       "from": 32,
+       "to": 41,
+       "promote": false
+      },
+      {
+       "from": 64,
+       "to": 24,
+       "promote": true
+      },
+      {
+       "from": 15,
+       "to": 24,
+       "promote": false
+      },
+      {
+       "drop": 6,
+       "to": 64
+      },
+      {
+       "drop": 1,
+       "to": 42
+      },
+      {
+       "from": 50,
+       "to": 41,
+       "promote": false
+      },
+      {
+       "drop": 6,
+       "to": 61
+      },
+      {
+       "from": 69,
+       "to": 70,
+       "promote": false
+      },
+      {
+       "from": 61,
+       "to": 77,
+       "promote": true
+      },
+      {
+       "from": 52,
+       "to": 60,
+       "promote": false
+      },
+      {
+       "from": 33,
+       "to": 41,
+       "promote": false
+      },
+      {
+       "from": 43,
+       "to": 34,
+       "promote": false
+      },
+      {
+       "from": 31,
+       "to": 40,
+       "promote": false
+      }
+     ],
+     "notes": {
+      "24": "△4三銀で角頭を守る。棒銀は3筋（角の頭）を狙ってくるので、この銀が受けの中心",
+      "30": "△1二香で端の香を先に逃がす。後で角に香を取られる筋を消す準備",
+      "32": "▲2六銀を見たら△3二飛。戦いの起きる3筋に飛車を回して迎え撃つ",
+      "34": "▲3五歩に△6五歩（久保流）。6筋の位を取り、角交換後の△6四角や△6四桂を用意する",
+      "38": "▲3八飛には△4五歩で角交換を挑む。振り飛車の常套手段で、角交換から大駒を捌きにいく",
+      "44": "△2七角で飛車と銀を狙う。角交換で手にした角をすぐ敵陣に打ち込むのが捌きの筋",
+      "46": "△4九角成で馬を作る。敵陣に馬ができて大駒が働き、居飛車の守りを崩しにいける",
+      "50": "△5五歩で中央から攻める。馬と捌けた銀が働き、振り飛車がはっきり良い"
+     },
+     "verdict": "後手（四間飛車）優勢",
+     "confidence": "出典1つ",
+     "sources": [
+      "https://www.shogilounge.com/entry/2018/01/01/145444",
+      "https://ja.wikipedia.org/wiki/%E6%A3%92%E9%8A%80",
+      "https://www.shogi-books.com/shiken/kuboshiken_2.htm"
+     ]
+    },
+    {
+     "id": "bogin-2",
+     "name": "分岐（久保流△6五歩に▲3五歩と打って銀を立て直す）",
+     "kif": [
+      "▲７六歩",
+      "△３四歩",
+      "▲２六歩",
+      "△４四歩",
+      "▲４八銀",
+      "△４二飛",
+      "▲６八玉",
+      "△７二銀",
+      "▲７八玉",
+      "△３二銀",
+      "▲５六歩",
+      "△９四歩",
+      "▲９六歩",
+      "△６二玉",
+      "▲５八金右",
+      "△７一玉",
+      "▲２五歩",
+      "△３三角",
+      "▲３六歩",
+      "△８二玉",
+      "▲６八銀",
+      "△５二金左",
+      "▲５七銀左",
+      "△４三銀",
+      "▲６八金上",
+      "△５四歩",
+      "▲３七銀",
+      "△６四歩",
+      "▲４六歩",
+      "△１二香",
+      "▲２六銀",
+      "△３二飛",
+      "▲３五歩",
+      "△６五歩",
+      "▲３四歩",
+      "△同　銀",
+      "▲３五歩打",
+      "△４三銀",
+      "▲３七銀",
+      "△５三金",
+      "▲３六銀",
+      "△５一角"
+     ],
+     "moves": [
+      {
+       "from": 56,
+       "to": 47,
+       "promote": false
+      },
+      {
+       "from": 24,
+       "to": 33,
+       "promote": false
+      },
+      {
+       "from": 61,
+       "to": 52,
+       "promote": false
+      },
+      {
+       "from": 23,
+       "to": 32,
+       "promote": false
+      },
+      {
+       "from": 78,
+       "to": 68,
+       "promote": false
+      },
+      {
+       "from": 10,
+       "to": 14,
+       "promote": false
+      },
+      {
+       "from": 76,
+       "to": 66,
+       "promote": false
+      },
+      {
+       "from": 2,
+       "to": 11,
+       "promote": false
+      },
+      {
+       "from": 66,
+       "to": 65,
+       "promote": false
+      },
+      {
+       "from": 6,
+       "to": 15,
+       "promote": false
+      },
+      {
+       "from": 58,
+       "to": 49,
+       "promote": false
+      },
+      {
+       "from": 18,
+       "to": 27,
+       "promote": false
+      },
+      {
+       "from": 54,
+       "to": 45,
+       "promote": false
+      },
+      {
+       "from": 4,
+       "to": 12,
+       "promote": false
+      },
+      {
+       "from": 77,
+       "to": 67,
+       "promote": false
+      },
+      {
+       "from": 12,
+       "to": 2,
+       "promote": false
+      },
+      {
+       "from": 52,
+       "to": 43,
+       "promote": false
+      },
+      {
+       "from": 16,
+       "to": 24,
+       "promote": false
+      },
+      {
+       "from": 60,
+       "to": 51,
+       "promote": false
+      },
+      {
+       "from": 2,
+       "to": 10,
+       "promote": false
+      },
+      {
+       "from": 74,
+       "to": 66,
+       "promote": false
+      },
+      {
+       "from": 5,
+       "to": 13,
+       "promote": false
+      },
+      {
+       "from": 66,
+       "to": 58,
+       "promote": false
+      },
+      {
+       "from": 15,
+       "to": 23,
+       "promote": false
+      },
+      {
+       "from": 75,
+       "to": 66,
+       "promote": false
+      },
+      {
+       "from": 22,
+       "to": 31,
+       "promote": false
+      },
+      {
+       "from": 68,
+       "to": 60,
+       "promote": false
+      },
+      {
+       "from": 21,
+       "to": 30,
+       "promote": false
+      },
+      {
+       "from": 59,
+       "to": 50,
+       "promote": false
+      },
+      {
+       "from": 8,
+       "to": 17,
+       "promote": false
+      },
+      {
+       "from": 60,
+       "to": 52,
+       "promote": false
+      },
+      {
+       "from": 14,
+       "to": 15,
+       "promote": false
+      },
+      {
+       "from": 51,
+       "to": 42,
+       "promote": false
+      },
+      {
+       "from": 30,
+       "to": 39,
+       "promote": false
+      },
+      {
+       "from": 42,
+       "to": 33,
+       "promote": false
+      },
+      {
+       "from": 23,
+       "to": 33,
+       "promote": false
+      },
+      {
+       "drop": 1,
+       "to": 42
+      },
+      {
+       "from": 33,
+       "to": 23,
+       "promote": false
+      },
+      {
+       "from": 52,
+       "to": 60,
+       "promote": false
+      },
+      {
+       "from": 13,
+       "to": 22,
+       "promote": false
+      },
+      {
+       "from": 60,
+       "to": 51,
+       "promote": false
+      },
+      {
+       "from": 24,
+       "to": 4,
+       "promote": false
+      }
+     ],
+     "notes": {
+      "34": "△6五歩で6筋の位を取る。将来△6四角と好位置に角を据える準備",
+      "36": "▲3四歩には△同銀と取る。銀で歩を取り返しつつ前に出る",
+      "38": "▲3五歩と打たれたら△4三銀と引く。無理に頑張らず角頭を守る位置に戻る",
+      "40": "△5三金で中央を厚くする。銀が3六に来ても4筋・5筋で受けられるようにする",
+      "42": "△5一角と引き、次に△7四歩〜△7三角と角を活用する。じっくりした戦いになる"
+     },
+     "verdict": "互角（これからの将棋）",
+     "confidence": "出典1つ",
+     "sources": [
+      "https://www.shogilounge.com/entry/2018/01/01/145444",
+      "https://toumaswitch.com/sikenbisya-taisaku/"
+     ]
+    },
+    {
+     "id": "bogin-3",
+     "name": "分岐（△1四歩から「対棒銀最強の布陣」で受け止める）",
+     "kif": [
+      "▲７六歩",
+      "△３四歩",
+      "▲２六歩",
+      "△４四歩",
+      "▲４八銀",
+      "△４二飛",
+      "▲６八玉",
+      "△７二銀",
+      "▲７八玉",
+      "△３二銀",
+      "▲５六歩",
+      "△９四歩",
+      "▲９六歩",
+      "△６二玉",
+      "▲５八金右",
+      "△７一玉",
+      "▲２五歩",
+      "△３三角",
+      "▲３六歩",
+      "△８二玉",
+      "▲６八銀",
+      "△５二金左",
+      "▲５七銀左",
+      "△４三銀",
+      "▲６八金上",
+      "△５四歩",
+      "▲３七銀",
+      "△１四歩",
+      "▲２六銀",
+      "△３二飛",
+      "▲４六歩",
+      "△１二香",
+      "▲３五歩",
+      "△４二角",
+      "▲３八飛",
+      "△５三角",
+      "▲１六歩",
+      "△４二金",
+      "▲３四歩",
+      "△同　銀",
+      "▲３五歩打",
+      "△４三銀",
+      "▲１五歩",
+      "△同　歩",
+      "▲同　香",
+      "△同　香",
+      "▲２四歩",
+      "△同　歩",
+      "▲１五銀",
+      "△１二飛",
+      "▲１四歩打",
+      "△３三金",
+      "▲２八飛",
+      "△４二角",
+      "▲２七香打",
+      "△８四香打"
+     ],
+     "moves": [
+      {
+       "from": 56,
+       "to": 47,
+       "promote": false
+      },
+      {
+       "from": 24,
+       "to": 33,
+       "promote": false
+      },
+      {
+       "from": 61,
+       "to": 52,
+       "promote": false
+      },
+      {
+       "from": 23,
+       "to": 32,
+       "promote": false
+      },
+      {
+       "from": 78,
+       "to": 68,
+       "promote": false
+      },
+      {
+       "from": 10,
+       "to": 14,
+       "promote": false
+      },
+      {
+       "from": 76,
+       "to": 66,
+       "promote": false
+      },
+      {
+       "from": 2,
+       "to": 11,
+       "promote": false
+      },
+      {
+       "from": 66,
+       "to": 65,
+       "promote": false
+      },
+      {
+       "from": 6,
+       "to": 15,
+       "promote": false
+      },
+      {
+       "from": 58,
+       "to": 49,
+       "promote": false
+      },
+      {
+       "from": 18,
+       "to": 27,
+       "promote": false
+      },
+      {
+       "from": 54,
+       "to": 45,
+       "promote": false
+      },
+      {
+       "from": 4,
+       "to": 12,
+       "promote": false
+      },
+      {
+       "from": 77,
+       "to": 67,
+       "promote": false
+      },
+      {
+       "from": 12,
+       "to": 2,
+       "promote": false
+      },
+      {
+       "from": 52,
+       "to": 43,
+       "promote": false
+      },
+      {
+       "from": 16,
+       "to": 24,
+       "promote": false
+      },
+      {
+       "from": 60,
+       "to": 51,
+       "promote": false
+      },
+      {
+       "from": 2,
+       "to": 10,
+       "promote": false
+      },
+      {
+       "from": 74,
+       "to": 66,
+       "promote": false
+      },
+      {
+       "from": 5,
+       "to": 13,
+       "promote": false
+      },
+      {
+       "from": 66,
+       "to": 58,
+       "promote": false
+      },
+      {
+       "from": 15,
+       "to": 23,
+       "promote": false
+      },
+      {
+       "from": 75,
+       "to": 66,
+       "promote": false
+      },
+      {
+       "from": 22,
+       "to": 31,
+       "promote": false
+      },
+      {
+       "from": 68,
+       "to": 60,
+       "promote": false
+      },
+      {
+       "from": 26,
+       "to": 35,
+       "promote": false
+      },
+      {
+       "from": 60,
+       "to": 52,
+       "promote": false
+      },
+      {
+       "from": 14,
+       "to": 15,
+       "promote": false
+      },
+      {
+       "from": 59,
+       "to": 50,
+       "promote": false
+      },
+      {
+       "from": 8,
+       "to": 17,
+       "promote": false
+      },
+      {
+       "from": 51,
+       "to": 42,
+       "promote": false
+      },
+      {
+       "from": 24,
+       "to": 14,
+       "promote": false
+      },
+      {
+       "from": 70,
+       "to": 69,
+       "promote": false
+      },
+      {
+       "from": 14,
+       "to": 22,
+       "promote": false
+      },
+      {
+       "from": 62,
+       "to": 53,
+       "promote": false
+      },
+      {
+       "from": 13,
+       "to": 14,
+       "promote": false
+      },
+      {
+       "from": 42,
+       "to": 33,
+       "promote": false
+      },
+      {
+       "from": 23,
+       "to": 33,
+       "promote": false
+      },
+      {
+       "drop": 1,
+       "to": 42
+      },
+      {
+       "from": 33,
+       "to": 23,
+       "promote": false
+      },
+      {
+       "from": 53,
+       "to": 44,
+       "promote": false
+      },
+      {
+       "from": 35,
+       "to": 44,
+       "promote": false
+      },
+      {
+       "from": 80,
+       "to": 44,
+       "promote": false
+      },
+      {
+       "from": 17,
+       "to": 44,
+       "promote": false
+      },
+      {
+       "from": 43,
+       "to": 34,
+       "promote": false
+      },
+      {
+       "from": 25,
+       "to": 34,
+       "promote": false
+      },
+      {
+       "from": 52,
+       "to": 44,
+       "promote": false
+      },
+      {
+       "from": 15,
+       "to": 17,
+       "promote": false
+      },
+      {
+       "drop": 1,
+       "to": 35
+      },
+      {
+       "from": 14,
+       "to": 24,
+       "promote": false
+      },
+      {
+       "from": 69,
+       "to": 70,
+       "promote": false
+      },
+      {
+       "from": 22,
+       "to": 14,
+       "promote": false
+      },
+      {
+       "drop": 2,
+       "to": 61
+      },
+      {
+       "drop": 2,
+       "to": 28
+      }
+     ],
+     "notes": {
+      "28": "△6四歩の代わりに△1四歩。▲1五銀と端に出られる変化を消し、△6四角の含みも残す",
+      "30": "▲2六銀には△3二飛。3筋に飛車を回して角頭を守る",
+      "34": "△4二角と引く。角を棒銀の正面から外し、5三へ転回する準備",
+      "36": "△5三角で角が3筋・1筋をにらむ。香1二・金4二・角5三が対棒銀最強の布陣",
+      "38": "△4二金で角頭の守りを完成。▲3四歩〜▲4五歩の攻めにも△同歩と取れる形",
+      "42": "▲3五歩には△4三銀と引いて受ける。銀を前に出し過ぎず、守りの形を崩さない",
+      "50": "▲1五銀には△1二飛。今度は1筋に飛車を回し、端攻めを正面から受ける",
+      "56": "△8四香で居飛車の玉頭に香を据える。居飛車は香を渡すと△8五香の重ね打ちが怖く、攻めにくい"
+     },
+     "verdict": "後手（四間飛車）優勢",
+     "confidence": "出典1つ",
+     "sources": [
+      "https://www.shogilounge.com/entry/2018/01/01/145444",
+      "https://www.shogi-books.com/shiken/kuboshiken_2.htm"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "kyusen57",
+   "title": "対▲5七銀左急戦（山田定跡・鷺宮定跡）",
+   "summary": "△3二銀型で斜め棒銀▲4六銀が来たら△3六歩で銀に歩を取らせ、△4五歩から角交換。▲2四歩の突破には△3三角・△2二飛で飛車を先に打つ。",
+   "lines": [
+    {
+     "id": "kyusen57-1",
+     "name": "本線（山田定跡・△3六歩から△4五歩）",
+     "kif": [
+      "▲７六歩",
+      "△３四歩",
+      "▲２六歩",
+      "△４四歩",
+      "▲４八銀",
+      "△４二飛",
+      "▲５六歩",
+      "△９四歩",
+      "▲９六歩",
+      "△７二銀",
+      "▲６八玉",
+      "△３二銀",
+      "▲７八玉",
+      "△６二玉",
+      "▲５八金右",
+      "△７一玉",
+      "▲３六歩",
+      "△８二玉",
+      "▲６八銀",
+      "△５二金左",
+      "▲２五歩",
+      "△３三角",
+      "▲５七銀左",
+      "△６四歩",
+      "▲３五歩",
+      "△同　歩",
+      "▲４六銀",
+      "△３六歩",
+      "▲３五銀",
+      "△４五歩",
+      "▲３三角成",
+      "△同　銀",
+      "▲２四歩",
+      "△同　歩",
+      "▲同　銀",
+      "△同　銀",
+      "▲同　飛",
+      "△３三角打",
+      "▲２一飛成",
+      "△２二飛",
+      "▲同　龍",
+      "△同　角"
+     ],
+     "moves": [
+      {
+       "from": 56,
+       "to": 47,
+       "promote": false
+      },
+      {
+       "from": 24,
+       "to": 33,
+       "promote": false
+      },
+      {
+       "from": 61,
+       "to": 52,
+       "promote": false
+      },
+      {
+       "from": 23,
+       "to": 32,
+       "promote": false
+      },
+      {
+       "from": 78,
+       "to": 68,
+       "promote": false
+      },
+      {
+       "from": 10,
+       "to": 14,
+       "promote": false
+      },
+      {
+       "from": 58,
+       "to": 49,
+       "promote": false
+      },
+      {
+       "from": 18,
+       "to": 27,
+       "promote": false
+      },
+      {
+       "from": 54,
+       "to": 45,
+       "promote": false
+      },
+      {
+       "from": 2,
+       "to": 11,
+       "promote": false
+      },
+      {
+       "from": 76,
+       "to": 66,
+       "promote": false
+      },
+      {
+       "from": 6,
+       "to": 15,
+       "promote": false
+      },
+      {
+       "from": 66,
+       "to": 65,
+       "promote": false
+      },
+      {
+       "from": 4,
+       "to": 12,
+       "promote": false
+      },
+      {
+       "from": 77,
+       "to": 67,
+       "promote": false
+      },
+      {
+       "from": 12,
+       "to": 2,
+       "promote": false
+      },
+      {
+       "from": 60,
+       "to": 51,
+       "promote": false
+      },
+      {
+       "from": 2,
+       "to": 10,
+       "promote": false
+      },
+      {
+       "from": 74,
+       "to": 66,
+       "promote": false
+      },
+      {
+       "from": 5,
+       "to": 13,
+       "promote": false
+      },
+      {
+       "from": 52,
+       "to": 43,
+       "promote": false
+      },
+      {
+       "from": 16,
+       "to": 24,
+       "promote": false
+      },
+      {
+       "from": 66,
+       "to": 58,
+       "promote": false
+      },
+      {
+       "from": 21,
+       "to": 30,
+       "promote": false
+      },
+      {
+       "from": 51,
+       "to": 42,
+       "promote": false
+      },
+      {
+       "from": 33,
+       "to": 42,
+       "promote": false
+      },
+      {
+       "from": 58,
+       "to": 50,
+       "promote": false
+      },
+      {
+       "from": 42,
+       "to": 51,
+       "promote": false
+      },
+      {
+       "from": 50,
+       "to": 42,
+       "promote": false
+      },
+      {
+       "from": 32,
+       "to": 41,
+       "promote": false
+      },
+      {
+       "from": 64,
+       "to": 24,
+       "promote": true
+      },
+      {
+       "from": 15,
+       "to": 24,
+       "promote": false
+      },
+      {
+       "from": 43,
+       "to": 34,
+       "promote": false
+      },
+      {
+       "from": 25,
+       "to": 34,
+       "promote": false
+      },
+      {
+       "from": 42,
+       "to": 34,
+       "promote": false
+      },
+      {
+       "from": 24,
+       "to": 34,
+       "promote": false
+      },
+      {
+       "from": 70,
+       "to": 34,
+       "promote": false
+      },
+      {
+       "drop": 6,
+       "to": 24
+      },
+      {
+       "from": 34,
+       "to": 7,
+       "promote": true
+      },
+      {
+       "from": 14,
+       "to": 16,
+       "promote": false
+      },
+      {
+       "from": 7,
+       "to": 16,
+       "promote": false
+      },
+      {
+       "from": 24,
+       "to": 16,
+       "promote": false
+      }
+     ],
+     "notes": {
+      "24": "△6四歩で高美濃を目指す。銀は3二のまま待つ形で、居飛車は山田定跡（▲3五歩〜▲4六銀）で来る",
+      "28": "▲4六銀に△3六歩と打つ。3六の歩が3七を押さえ、居飛車の桂が跳ねられず後で取られやすくなる",
+      "30": "△4五歩で角交換を挑む。▲3三角成に△同銀と取れるのが3二銀型の長所",
+      "36": "▲2四同銀には△同銀と取る。飛車先を破られても次の角打ちで反撃できる",
+      "38": "△3三角が用意の反撃。△2二歩などと受けに回ると一方的に捌かれる",
+      "40": "▲2一飛成には△2二飛と飛車をぶつける。竜を消して大駒の打ち合いに持ち込む",
+      "42": "△2二同角で飛車交換が完了。次に△2八飛と先に飛車を打ち込めるのが振り飛車の主張"
+     },
+     "verdict": "後手（四間飛車）十分",
+     "confidence": "確認済み",
+     "sources": [
+      "https://www.shogilounge.com/entry/2018/01/06/152223",
+      "https://ja.wikipedia.org/wiki/%E9%B7%BA%E5%AE%AE%E5%AE%9A%E8%B7%A1",
+      "https://ja.wikipedia.org/wiki/%E5%B1%B1%E7%94%B0%E5%AE%9A%E8%B7%A1"
+     ]
+    },
+    {
+     "id": "kyusen57-2",
+     "name": "分岐（▲2四歩をためて▲8八角と打つ）",
+     "kif": [
+      "▲７六歩",
+      "△３四歩",
+      "▲２六歩",
+      "△４四歩",
+      "▲４八銀",
+      "△４二飛",
+      "▲５六歩",
+      "△９四歩",
+      "▲９六歩",
+      "△７二銀",
+      "▲６八玉",
+      "△３二銀",
+      "▲７八玉",
+      "△６二玉",
+      "▲５八金右",
+      "△７一玉",
+      "▲３六歩",
+      "△８二玉",
+      "▲６八銀",
+      "△５二金左",
+      "▲２五歩",
+      "△３三角",
+      "▲５七銀左",
+      "△６四歩",
+      "▲３五歩",
+      "△同　歩",
+      "▲４六銀",
+      "△３六歩",
+      "▲３五銀",
+      "△４五歩",
+      "▲３三角成",
+      "△同　銀",
+      "▲８八角打",
+      "△５四角打"
+     ],
+     "moves": [
+      {
+       "from": 56,
+       "to": 47,
+       "promote": false
+      },
+      {
+       "from": 24,
+       "to": 33,
+       "promote": false
+      },
+      {
+       "from": 61,
+       "to": 52,
+       "promote": false
+      },
+      {
+       "from": 23,
+       "to": 32,
+       "promote": false
+      },
+      {
+       "from": 78,
+       "to": 68,
+       "promote": false
+      },
+      {
+       "from": 10,
+       "to": 14,
+       "promote": false
+      },
+      {
+       "from": 58,
+       "to": 49,
+       "promote": false
+      },
+      {
+       "from": 18,
+       "to": 27,
+       "promote": false
+      },
+      {
+       "from": 54,
+       "to": 45,
+       "promote": false
+      },
+      {
+       "from": 2,
+       "to": 11,
+       "promote": false
+      },
+      {
+       "from": 76,
+       "to": 66,
+       "promote": false
+      },
+      {
+       "from": 6,
+       "to": 15,
+       "promote": false
+      },
+      {
+       "from": 66,
+       "to": 65,
+       "promote": false
+      },
+      {
+       "from": 4,
+       "to": 12,
+       "promote": false
+      },
+      {
+       "from": 77,
+       "to": 67,
+       "promote": false
+      },
+      {
+       "from": 12,
+       "to": 2,
+       "promote": false
+      },
+      {
+       "from": 60,
+       "to": 51,
+       "promote": false
+      },
+      {
+       "from": 2,
+       "to": 10,
+       "promote": false
+      },
+      {
+       "from": 74,
+       "to": 66,
+       "promote": false
+      },
+      {
+       "from": 5,
+       "to": 13,
+       "promote": false
+      },
+      {
+       "from": 52,
+       "to": 43,
+       "promote": false
+      },
+      {
+       "from": 16,
+       "to": 24,
+       "promote": false
+      },
+      {
+       "from": 66,
+       "to": 58,
+       "promote": false
+      },
+      {
+       "from": 21,
+       "to": 30,
+       "promote": false
+      },
+      {
+       "from": 51,
+       "to": 42,
+       "promote": false
+      },
+      {
+       "from": 33,
+       "to": 42,
+       "promote": false
+      },
+      {
+       "from": 58,
+       "to": 50,
+       "promote": false
+      },
+      {
+       "from": 42,
+       "to": 51,
+       "promote": false
+      },
+      {
+       "from": 50,
+       "to": 42,
+       "promote": false
+      },
+      {
+       "from": 32,
+       "to": 41,
+       "promote": false
+      },
+      {
+       "from": 64,
+       "to": 24,
+       "promote": true
+      },
+      {
+       "from": 15,
+       "to": 24,
+       "promote": false
+      },
+      {
+       "drop": 6,
+       "to": 64
+      },
+      {
+       "drop": 6,
+       "to": 31
+      }
+     ],
+     "notes": {
+      "28": "△3六歩と打つ手筋。3七を押さえて居飛車の桂の活用を封じる",
+      "30": "△4五歩から角交換。3二の銀で取り返せるので形が崩れない",
+      "32": "▲3三角成に△同銀。居飛車はここで▲2四歩を急がず、△3三角の反撃を消す▲8八角を選ぶ",
+      "34": "▲8八角には△5四角。四方をにらむ位置に角を打ち、2筋・4筋の両方に備える"
+     },
+     "verdict": "互角（難解。振り飛車は玉の固さと好位置の角が主張）",
+     "confidence": "確認済み",
+     "sources": [
+      "https://www.shogilounge.com/entry/2018/01/06/152223",
+      "https://ja.wikipedia.org/wiki/%E5%9B%9B%E9%96%93%E9%A3%9B%E8%BB%8A"
+     ]
+    },
+    {
+     "id": "kyusen57-3",
+     "name": "分岐（鷺宮定跡・▲3八飛に△6五歩）",
+     "kif": [
+      "▲７六歩",
+      "△３四歩",
+      "▲２六歩",
+      "△４四歩",
+      "▲２五歩",
+      "△３三角",
+      "▲４八銀",
+      "△４二飛",
+      "▲６八玉",
+      "△７二銀",
+      "▲７八玉",
+      "△９四歩",
+      "▲９六歩",
+      "△６二玉",
+      "▲５六歩",
+      "△７一玉",
+      "▲５八金右",
+      "△３二銀",
+      "▲６八銀",
+      "△８二玉",
+      "▲５七銀左",
+      "△５二金左",
+      "▲３六歩",
+      "△５四歩",
+      "▲６八金上",
+      "△６四歩",
+      "▲３八飛",
+      "△６五歩",
+      "▲３五歩",
+      "△同　歩",
+      "▲４六銀",
+      "△４五歩",
+      "▲３三角成",
+      "△同　銀",
+      "▲３五銀",
+      "△６四角打",
+      "▲３四歩打",
+      "△４四銀"
+     ],
+     "moves": [
+      {
+       "from": 56,
+       "to": 47,
+       "promote": false
+      },
+      {
+       "from": 24,
+       "to": 33,
+       "promote": false
+      },
+      {
+       "from": 61,
+       "to": 52,
+       "promote": false
+      },
+      {
+       "from": 23,
+       "to": 32,
+       "promote": false
+      },
+      {
+       "from": 52,
+       "to": 43,
+       "promote": false
+      },
+      {
+       "from": 16,
+       "to": 24,
+       "promote": false
+      },
+      {
+       "from": 78,
+       "to": 68,
+       "promote": false
+      },
+      {
+       "from": 10,
+       "to": 14,
+       "promote": false
+      },
+      {
+       "from": 76,
+       "to": 66,
+       "promote": false
+      },
+      {
+       "from": 2,
+       "to": 11,
+       "promote": false
+      },
+      {
+       "from": 66,
+       "to": 65,
+       "promote": false
+      },
+      {
+       "from": 18,
+       "to": 27,
+       "promote": false
+      },
+      {
+       "from": 54,
+       "to": 45,
+       "promote": false
+      },
+      {
+       "from": 4,
+       "to": 12,
+       "promote": false
+      },
+      {
+       "from": 58,
+       "to": 49,
+       "promote": false
+      },
+      {
+       "from": 12,
+       "to": 2,
+       "promote": false
+      },
+      {
+       "from": 77,
+       "to": 67,
+       "promote": false
+      },
+      {
+       "from": 6,
+       "to": 15,
+       "promote": false
+      },
+      {
+       "from": 74,
+       "to": 66,
+       "promote": false
+      },
+      {
+       "from": 2,
+       "to": 10,
+       "promote": false
+      },
+      {
+       "from": 66,
+       "to": 58,
+       "promote": false
+      },
+      {
+       "from": 5,
+       "to": 13,
+       "promote": false
+      },
+      {
+       "from": 60,
+       "to": 51,
+       "promote": false
+      },
+      {
+       "from": 22,
+       "to": 31,
+       "promote": false
+      },
+      {
+       "from": 75,
+       "to": 66,
+       "promote": false
+      },
+      {
+       "from": 21,
+       "to": 30,
+       "promote": false
+      },
+      {
+       "from": 70,
+       "to": 69,
+       "promote": false
+      },
+      {
+       "from": 30,
+       "to": 39,
+       "promote": false
+      },
+      {
+       "from": 51,
+       "to": 42,
+       "promote": false
+      },
+      {
+       "from": 33,
+       "to": 42,
+       "promote": false
+      },
+      {
+       "from": 58,
+       "to": 50,
+       "promote": false
+      },
+      {
+       "from": 32,
+       "to": 41,
+       "promote": false
+      },
+      {
+       "from": 64,
+       "to": 24,
+       "promote": true
+      },
+      {
+       "from": 15,
+       "to": 24,
+       "promote": false
+      },
+      {
+       "from": 50,
+       "to": 42,
+       "promote": false
+      },
+      {
+       "drop": 6,
+       "to": 30
+      },
+      {
+       "drop": 1,
+       "to": 33
+      },
+      {
+       "from": 24,
+       "to": 32,
+       "promote": false
+      }
+     ],
+     "notes": {
+      "24": "△5四歩で待つと、居飛車は▲6八金上から飛車を3筋に回す鷺宮定跡を狙う",
+      "28": "▲3八飛に△6五歩。6筋の位を取って、角交換後に△6四角を打つ場所を作る",
+      "32": "▲4六銀には△4五歩。銀に当てながら角道を開ける",
+      "34": "▲3三角成に△同銀。3二の銀で取り返して形を保つ",
+      "36": "△6四角で用意の角打ち。4六〜1九の斜めの筋をにらみ、1九の香も狙える",
+      "38": "△4四銀で銀をぶつける。角成りの筋も残り、振り飛車がはっきり指しやすい"
+     },
+     "verdict": "後手（四間飛車）指しやすい",
+     "confidence": "出典1つ",
+     "sources": [
+      "https://www.shogilounge.com/entry/2018/01/07/162806"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "anaguma",
+   "title": "対居飛車穴熊",
+   "summary": "穴熊が完成する前に動くのが方針。△6四歩・△7四歩・△7三桂で玉頭を狙う形を作り、△4五歩で角道を通し、△4四銀〜△5五歩で中央から仕掛ける。",
+   "lines": [
+    {
+     "id": "anaguma-1",
+     "name": "本線（△4四銀型から△5五歩・△4六歩の突き捨て）",
+     "kif": [
+      "▲７六歩",
+      "△３四歩",
+      "▲２六歩",
+      "△４四歩",
+      "▲４八銀",
+      "△４二飛",
+      "▲５六歩",
+      "△３二銀",
+      "▲６八玉",
+      "△６二玉",
+      "▲２五歩",
+      "△３三角",
+      "▲７八玉",
+      "△７二銀",
+      "▲５七銀",
+      "△７一玉",
+      "▲５八金右",
+      "△５二金左",
+      "▲７七角",
+      "△６四歩",
+      "▲６六歩",
+      "△７四歩",
+      "▲８八玉",
+      "△４三銀",
+      "▲９八香",
+      "△７三桂",
+      "▲９九玉",
+      "△４五歩",
+      "▲８八銀",
+      "△４四銀",
+      "▲３六歩",
+      "△５四歩",
+      "▲６七金",
+      "△８二玉",
+      "▲７八金",
+      "△６三金",
+      "▲６八銀",
+      "△５五歩",
+      "▲同　歩",
+      "△４六歩",
+      "▲同　歩",
+      "△５五銀",
+      "▲２四歩",
+      "△同　歩",
+      "▲３五歩"
+     ],
+     "moves": [
+      {
+       "from": 56,
+       "to": 47,
+       "promote": false
+      },
+      {
+       "from": 24,
+       "to": 33,
+       "promote": false
+      },
+      {
+       "from": 61,
+       "to": 52,
+       "promote": false
+      },
+      {
+       "from": 23,
+       "to": 32,
+       "promote": false
+      },
+      {
+       "from": 78,
+       "to": 68,
+       "promote": false
+      },
+      {
+       "from": 10,
+       "to": 14,
+       "promote": false
+      },
+      {
+       "from": 58,
+       "to": 49,
+       "promote": false
+      },
+      {
+       "from": 6,
+       "to": 15,
+       "promote": false
+      },
+      {
+       "from": 76,
+       "to": 66,
+       "promote": false
+      },
+      {
+       "from": 4,
+       "to": 12,
+       "promote": false
+      },
+      {
+       "from": 52,
+       "to": 43,
+       "promote": false
+      },
+      {
+       "from": 16,
+       "to": 24,
+       "promote": false
+      },
+      {
+       "from": 66,
+       "to": 65,
+       "promote": false
+      },
+      {
+       "from": 2,
+       "to": 11,
+       "promote": false
+      },
+      {
+       "from": 68,
+       "to": 58,
+       "promote": false
+      },
+      {
+       "from": 12,
+       "to": 2,
+       "promote": false
+      },
+      {
+       "from": 77,
+       "to": 67,
+       "promote": false
+      },
+      {
+       "from": 5,
+       "to": 13,
+       "promote": false
+      },
+      {
+       "from": 64,
+       "to": 56,
+       "promote": false
+      },
+      {
+       "from": 21,
+       "to": 30,
+       "promote": false
+      },
+      {
+       "from": 57,
+       "to": 48,
+       "promote": false
+      },
+      {
+       "from": 20,
+       "to": 29,
+       "promote": false
+      },
+      {
+       "from": 65,
+       "to": 64,
+       "promote": false
+      },
+      {
+       "from": 15,
+       "to": 23,
+       "promote": false
+      },
+      {
+       "from": 72,
+       "to": 63,
+       "promote": false
+      },
+      {
+       "from": 1,
+       "to": 20,
+       "promote": false
+      },
+      {
+       "from": 64,
+       "to": 72,
+       "promote": false
+      },
+      {
+       "from": 32,
+       "to": 41,
+       "promote": false
+      },
+      {
+       "from": 74,
+       "to": 64,
+       "promote": false
+      },
+      {
+       "from": 23,
+       "to": 32,
+       "promote": false
+      },
+      {
+       "from": 60,
+       "to": 51,
+       "promote": false
+      },
+      {
+       "from": 22,
+       "to": 31,
+       "promote": false
+      },
+      {
+       "from": 67,
+       "to": 57,
+       "promote": false
+      },
+      {
+       "from": 2,
+       "to": 10,
+       "promote": false
+      },
+      {
+       "from": 75,
+       "to": 65,
+       "promote": false
+      },
+      {
+       "from": 13,
+       "to": 21,
+       "promote": false
+      },
+      {
+       "from": 58,
+       "to": 66,
+       "promote": false
+      },
+      {
+       "from": 31,
+       "to": 40,
+       "promote": false
+      },
+      {
+       "from": 49,
+       "to": 40,
+       "promote": false
+      },
+      {
+       "from": 41,
+       "to": 50,
+       "promote": false
+      },
+      {
+       "from": 59,
+       "to": 50,
+       "promote": false
+      },
+      {
+       "from": 32,
+       "to": 40,
+       "promote": false
+      },
+      {
+       "from": 43,
+       "to": 34,
+       "promote": false
+      },
+      {
+       "from": 25,
+       "to": 34,
+       "promote": false
+      },
+      {
+       "from": 51,
+       "to": 42,
+       "promote": false
+      }
+     ],
+     "notes": {
+      "20": "居飛車が▲7七角と穴熊の準備を見せたら△6四歩。6筋・7筋から玉頭を攻める形を作る",
+      "26": "△7三桂で桂を活用。穴熊の玉頭（8筋・6筋）への攻めに使う",
+      "28": "△4五歩で4筋の位を取る。角の利きを生かしつつ、銀を4四に出す足場にする",
+      "30": "△4四銀は銀を前に出す積極策。飛車と銀で4筋・5筋を攻める形",
+      "34": "△8二玉で美濃を固める。▲6七金〜▲7八金と居飛車が固める間にこちらも整える",
+      "38": "△5五歩から仕掛ける。松尾流穴熊（▲7九銀）まで完成させると勝ちにくくなる",
+      "40": "△4六歩も突き捨てて4筋を開ける。▲同歩と取らせて駒を前に出す準備",
+      "42": "△5五銀で銀が中央に進出。ここから居飛車は2筋・3筋の突き捨てで反撃してくる"
+     },
+     "verdict": "互角（激しい戦い。出典は実戦的には穴熊側が勝ちやすいとも書いている）",
+     "confidence": "出典1つ",
+     "sources": [
+      "https://hibitonshi.com/2018-08-05-200000/",
+      "https://mananiwa.com/2021/12/19/%E5%B1%85%E9%A3%9B%E8%BB%8A%E7%A9%B4%E7%86%8A%E5%AF%BE%E5%9B%9B%E9%96%93%E9%A3%9B%E8%BB%8A%E9%8A%80%E5%9E%8B%E7%BE%8E%E6%BF%83%E5%9B%B2%E3%81%841/"
+     ]
+    },
+    {
+     "id": "anaguma-2",
+     "name": "分岐（▲2六角型に△5三銀と引いて角をぶつける）",
+     "kif": [
+      "▲２六歩",
+      "△３四歩",
+      "▲７六歩",
+      "△４四歩",
+      "▲４八銀",
+      "△３二銀",
+      "▲６八玉",
+      "△４二飛",
+      "▲５六歩",
+      "△６二玉",
+      "▲７八玉",
+      "△７二銀",
+      "▲５八金右",
+      "△５二金左",
+      "▲５七銀",
+      "△７一玉",
+      "▲７七角",
+      "△６四歩",
+      "▲８八玉",
+      "△９四歩",
+      "▲９六歩",
+      "△７四歩",
+      "▲２五歩",
+      "△３三角",
+      "▲９八香",
+      "△７三桂",
+      "▲６六歩",
+      "△４五歩",
+      "▲９九玉",
+      "△４三銀",
+      "▲８八銀",
+      "△４四銀",
+      "▲３六歩",
+      "△５四歩",
+      "▲５九角",
+      "△８二玉",
+      "▲２六角",
+      "△６三金",
+      "▲７九金",
+      "△８四歩",
+      "▲１六歩",
+      "△１四歩",
+      "▲６七金",
+      "△５三銀",
+      "▲７八飛",
+      "△４四角",
+      "▲同　角",
+      "△同　銀",
+      "▲２八飛",
+      "△３三銀"
+     ],
+     "moves": [
+      {
+       "from": 61,
+       "to": 52,
+       "promote": false
+      },
+      {
+       "from": 24,
+       "to": 33,
+       "promote": false
+      },
+      {
+       "from": 56,
+       "to": 47,
+       "promote": false
+      },
+      {
+       "from": 23,
+       "to": 32,
+       "promote": false
+      },
+      {
+       "from": 78,
+       "to": 68,
+       "promote": false
+      },
+      {
+       "from": 6,
+       "to": 15,
+       "promote": false
+      },
+      {
+       "from": 76,
+       "to": 66,
+       "promote": false
+      },
+      {
+       "from": 10,
+       "to": 14,
+       "promote": false
+      },
+      {
+       "from": 58,
+       "to": 49,
+       "promote": false
+      },
+      {
+       "from": 4,
+       "to": 12,
+       "promote": false
+      },
+      {
+       "from": 66,
+       "to": 65,
+       "promote": false
+      },
+      {
+       "from": 2,
+       "to": 11,
+       "promote": false
+      },
+      {
+       "from": 77,
+       "to": 67,
+       "promote": false
+      },
+      {
+       "from": 5,
+       "to": 13,
+       "promote": false
+      },
+      {
+       "from": 68,
+       "to": 58,
+       "promote": false
+      },
+      {
+       "from": 12,
+       "to": 2,
+       "promote": false
+      },
+      {
+       "from": 64,
+       "to": 56,
+       "promote": false
+      },
+      {
+       "from": 21,
+       "to": 30,
+       "promote": false
+      },
+      {
+       "from": 65,
+       "to": 64,
+       "promote": false
+      },
+      {
+       "from": 18,
+       "to": 27,
+       "promote": false
+      },
+      {
+       "from": 54,
+       "to": 45,
+       "promote": false
+      },
+      {
+       "from": 20,
+       "to": 29,
+       "promote": false
+      },
+      {
+       "from": 52,
+       "to": 43,
+       "promote": false
+      },
+      {
+       "from": 16,
+       "to": 24,
+       "promote": false
+      },
+      {
+       "from": 72,
+       "to": 63,
+       "promote": false
+      },
+      {
+       "from": 1,
+       "to": 20,
+       "promote": false
+      },
+      {
+       "from": 57,
+       "to": 48,
+       "promote": false
+      },
+      {
+       "from": 32,
+       "to": 41,
+       "promote": false
+      },
+      {
+       "from": 64,
+       "to": 72,
+       "promote": false
+      },
+      {
+       "from": 15,
+       "to": 23,
+       "promote": false
+      },
+      {
+       "from": 74,
+       "to": 64,
+       "promote": false
+      },
+      {
+       "from": 23,
+       "to": 32,
+       "promote": false
+      },
+      {
+       "from": 60,
+       "to": 51,
+       "promote": false
+      },
+      {
+       "from": 22,
+       "to": 31,
+       "promote": false
+      },
+      {
+       "from": 56,
+       "to": 76,
+       "promote": false
+      },
+      {
+       "from": 2,
+       "to": 10,
+       "promote": false
+      },
+      {
+       "from": 76,
+       "to": 52,
+       "promote": false
+      },
+      {
+       "from": 13,
+       "to": 21,
+       "promote": false
+      },
+      {
+       "from": 75,
+       "to": 74,
+       "promote": false
+      },
+      {
+       "from": 19,
+       "to": 28,
+       "promote": false
+      },
+      {
+       "from": 62,
+       "to": 53,
+       "promote": false
+      },
+      {
+       "from": 26,
+       "to": 35,
+       "promote": false
+      },
+      {
+       "from": 67,
+       "to": 57,
+       "promote": false
+      },
+      {
+       "from": 32,
+       "to": 22,
+       "promote": false
+      },
+      {
+       "from": 70,
+       "to": 65,
+       "promote": false
+      },
+      {
+       "from": 24,
+       "to": 32,
+       "promote": false
+      },
+      {
+       "from": 52,
+       "to": 32,
+       "promote": false
+      },
+      {
+       "from": 22,
+       "to": 32,
+       "promote": false
+      },
+      {
+       "from": 65,
+       "to": 70,
+       "promote": false
+      },
+      {
+       "from": 32,
+       "to": 24,
+       "promote": false
+      }
+     ],
+     "notes": {
+      "28": "△4五歩で4筋の位を取る。居飛車の▲6六歩で角筋は止まっているが、銀を4四に出す足場になる",
+      "32": "△4四銀で銀を前線に出す",
+      "38": "△8二玉で入城し、△6三金で高美濃風に厚くする",
+      "44": "△5三銀と柔らかく引く。△8三銀と銀冠を急ぐと▲4八飛から4筋を一方的に攻められる",
+      "46": "▲7八飛には△4四角とぶつける。角を交換して居飛車の攻め筋を減らす",
+      "50": "△3三銀で落ち着く。居飛車に攻める手段がなく、手詰まりを狙える形"
+     },
+     "verdict": "互角（居飛車が手を作りにくい。定説は互角の展開）",
+     "confidence": "出典1つ",
+     "sources": [
+      "https://mananiwa.com/2021/12/19/%E5%B1%85%E9%A3%9B%E8%BB%8A%E7%A9%B4%E7%86%8A%E5%AF%BE%E5%9B%9B%E9%96%93%E9%A3%9B%E8%BB%8A%E9%8A%80%E5%9E%8B%E7%BE%8E%E6%BF%83%E5%9B%B2%E3%81%841/"
+     ]
+    },
+    {
+     "id": "anaguma-3",
+     "name": "分岐（級位者向け：△7三桂の速攻で穴熊に組ませない）",
+     "kif": [
+      "▲７六歩",
+      "△３四歩",
+      "▲２六歩",
+      "△４四歩",
+      "▲４八銀",
+      "△４二飛",
+      "▲２五歩",
+      "△３三角",
+      "▲６八玉",
+      "△６二玉",
+      "▲７八玉",
+      "△７二銀",
+      "▲５六歩",
+      "△７一玉",
+      "▲５七銀",
+      "△６四歩",
+      "▲７七角",
+      "△７四歩",
+      "▲８八玉",
+      "△７三桂",
+      "▲６六歩",
+      "△４五歩",
+      "▲９八香",
+      "△８五桂",
+      "▲８六角",
+      "△６二飛",
+      "▲９九玉",
+      "△６五歩",
+      "▲５三角成",
+      "△６六歩",
+      "▲８八銀",
+      "△６七歩成",
+      "▲６二馬",
+      "△同　金",
+      "▲４八銀",
+      "△８八角成",
+      "▲同　玉",
+      "△６六角打"
+     ],
+     "moves": [
+      {
+       "from": 56,
+       "to": 47,
+       "promote": false
+      },
+      {
+       "from": 24,
+       "to": 33,
+       "promote": false
+      },
+      {
+       "from": 61,
+       "to": 52,
+       "promote": false
+      },
+      {
+       "from": 23,
+       "to": 32,
+       "promote": false
+      },
+      {
+       "from": 78,
+       "to": 68,
+       "promote": false
+      },
+      {
+       "from": 10,
+       "to": 14,
+       "promote": false
+      },
+      {
+       "from": 52,
+       "to": 43,
+       "promote": false
+      },
+      {
+       "from": 16,
+       "to": 24,
+       "promote": false
+      },
+      {
+       "from": 76,
+       "to": 66,
+       "promote": false
+      },
+      {
+       "from": 4,
+       "to": 12,
+       "promote": false
+      },
+      {
+       "from": 66,
+       "to": 65,
+       "promote": false
+      },
+      {
+       "from": 2,
+       "to": 11,
+       "promote": false
+      },
+      {
+       "from": 58,
+       "to": 49,
+       "promote": false
+      },
+      {
+       "from": 12,
+       "to": 2,
+       "promote": false
+      },
+      {
+       "from": 68,
+       "to": 58,
+       "promote": false
+      },
+      {
+       "from": 21,
+       "to": 30,
+       "promote": false
+      },
+      {
+       "from": 64,
+       "to": 56,
+       "promote": false
+      },
+      {
+       "from": 20,
+       "to": 29,
+       "promote": false
+      },
+      {
+       "from": 65,
+       "to": 64,
+       "promote": false
+      },
+      {
+       "from": 1,
+       "to": 20,
+       "promote": false
+      },
+      {
+       "from": 57,
+       "to": 48,
+       "promote": false
+      },
+      {
+       "from": 32,
+       "to": 41,
+       "promote": false
+      },
+      {
+       "from": 72,
+       "to": 63,
+       "promote": false
+      },
+      {
+       "from": 20,
+       "to": 37,
+       "promote": false
+      },
+      {
+       "from": 56,
+       "to": 46,
+       "promote": false
+      },
+      {
+       "from": 14,
+       "to": 12,
+       "promote": false
+      },
+      {
+       "from": 64,
+       "to": 72,
+       "promote": false
+      },
+      {
+       "from": 30,
+       "to": 39,
+       "promote": false
+      },
+      {
+       "from": 46,
+       "to": 22,
+       "promote": true
+      },
+      {
+       "from": 39,
+       "to": 48,
+       "promote": false
+      },
+      {
+       "from": 74,
+       "to": 64,
+       "promote": false
+      },
+      {
+       "from": 48,
+       "to": 57,
+       "promote": true
+      },
+      {
+       "from": 22,
+       "to": 12,
+       "promote": false
+      },
+      {
+       "from": 3,
+       "to": 12,
+       "promote": false
+      },
+      {
+       "from": 58,
+       "to": 68,
+       "promote": false
+      },
+      {
+       "from": 24,
+       "to": 64,
+       "promote": true
+      },
+      {
+       "from": 72,
+       "to": 64,
+       "promote": false
+      },
+      {
+       "drop": 6,
+       "to": 48
+      }
+     ],
+     "notes": {
+      "14": "△7一玉で片美濃のまま止める。左の金銀（4一金・3一銀）は動かさず攻めの準備を急ぐ",
+      "20": "△6四歩・△7四歩・△7三桂の3手がこの作戦の骨格。玉頭攻めの準備",
+      "22": "居飛車が▲6六歩と角道を止めたら△4五歩で角筋を通す",
+      "24": "▲9八香と穴熊を急ぐ手に△8五桂。角取りに跳ねて組む暇を与えない",
+      "26": "△6二飛で6筋に飛車を回す。6筋の歩を突く攻めの準備",
+      "28": "△6五歩で総攻撃。▲5三角成を許しても6筋の突破が勝る",
+      "32": "△6七歩成で玉の急所にと金を作る。居飛車は受けが難しい",
+      "38": "△6六角で居飛車玉はどう逃げても詰む形。穴熊完成前に攻め切った"
+     },
+     "verdict": "後手（四間飛車）必勝（出典筆者は終盤はやや都合のよい手順と注記）",
+     "confidence": "出典1つ",
+     "sources": [
+      "https://note.com/temee/n/n38bc9a0aad74"
+     ]
+    }
+   ]
+  }
+ ]
+}

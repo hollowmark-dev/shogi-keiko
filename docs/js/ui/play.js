@@ -215,7 +215,7 @@ export function startSession(app, ctx, ids) {
     const label = session.inRetry ? "もう一度" : `${session.i + 1} / ${total}`;
     const view = {
       pos: st.pos, selected: st.selected, targets: st.targets, last: st.last,
-      interactive: st.phase === "play", goteHand: "all",
+      interactive: st.phase === "play", oppHand: "all",
     };
     let promo = "";
     if (st.promo) {
